@@ -1,4 +1,4 @@
-import tkinter as tk
+﻿import tkinter as tk
 from tkinter import ttk
 import pandas as pd
 import seaborn as sns
@@ -40,9 +40,9 @@ from diag_fonct import (line_plot,
                         comparaison )
 
 #Chemin vers les données
-data_general='data_netflow.csv'
-data_predict='alefabarea23.csv'
-data_last_two_min= 'last_csv.csv'
+data_general='./data/data_netflow.csv'
+data_predict='./data/liste_packets.csv'
+data_last_two_min= './data/last_csv.csv'
 
 #Variable global
 current_interval="24h"
